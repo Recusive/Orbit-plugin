@@ -1,0 +1,24 @@
+{
+  "name": "audit-suite",
+  "version": "1.0.0",
+  "description": "10 expert audit lenses + orchestrator for comprehensive plan and code review. Run individual lenses (design, UX, frontend, backend, structural, repo, production, DX, performance, accessibility) or the full spectrum audit that runs all 10 sequentially into one document.",
+  "author": {
+    "name": "Orbit",
+    "url": "https://github.com/Recusive"
+  },
+  "repository": "https://github.com/Recusive/Orbit-plugin",
+  "license": "MIT",
+  "keywords": [
+    "audit",
+    "code-review",
+    "plan-review",
+    "accessibility",
+    "performance",
+    "design",
+    "ux",
+    "frontend",
+    "backend",
+    "production-readiness"
+  ],
+  "skills": "./skills/"
+}
