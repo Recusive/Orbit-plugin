@@ -12,7 +12,7 @@
 <p align="center">
   <img src="https://img.shields.io/badge/Claude_Code-Plugin-6C47FF?logo=data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBkPSJNMTIgMkM2LjQ4IDIgMiA2LjQ4IDIgMTJzNC40OCAxMCAxMCAxMCAxMC00LjQ4IDEwLTEwUzE3LjUyIDIgMTIgMnoiIGZpbGw9IndoaXRlIi8+PC9zdmc+&logoColor=white" alt="Claude Code Plugin" />
   <img src="https://img.shields.io/badge/Lenses-10-24C8D8" alt="10 Lenses" />
-  <img src="https://img.shields.io/badge/Skills-11-DEA584" alt="11 Skills" />
+  <img src="https://img.shields.io/badge/Skills-16-DEA584" alt="16 Skills" />
   <img src="https://img.shields.io/badge/License-MIT-green" alt="MIT License" />
 </p>
 
@@ -110,20 +110,28 @@ The **Cross-Cutting Concerns** section is where the real value lives — issues 
 
 ---
 
-## Cross-References
+## Bundled Reference Skills
 
-Six lenses reference existing Claude Code skills for deeper guidance when issues are found:
+Five reference skills are **included in this plugin** — no extra installs needed. When an audit lens finds issues, it consults these for detailed guidance:
 
-| Lens | References |
-|------|-----------|
+| Skill | What It Provides |
+|-------|-----------------|
+| `emil-design-engineering` | Design principles — typography, surfaces, forms, component composition, touch targets |
+| `make-interfaces-feel-better` | Visual polish — concentric border-radius, optical alignment, shadows, font smoothing |
+| `web-animation-design` | Animation rules — easing blueprints, timing, spring physics, GPU-only properties |
+| `web-design-guidelines` | Web Interface Guidelines compliance — structured accessibility and UX review |
+| `vercel-react-best-practices` | 45 prioritized React performance rules — waterfalls, bundle size, re-renders, caching |
+
+### Which lens uses what
+
+| Lens | Consults |
+|------|----------|
 | Design | `emil-design-engineering`, `make-interfaces-feel-better`, `web-animation-design` |
 | UX | `web-design-guidelines`, `emil-design-engineering` |
 | Frontend | `vercel-react-best-practices` |
 | Structural | `vercel-react-best-practices` |
 | Performance | `vercel-react-best-practices`, `web-animation-design` |
 | Accessibility | `emil-design-engineering`, `web-design-guidelines`, `web-animation-design` |
-
-These are optional — every lens works standalone, but produces richer recommendations when the referenced skills are also installed.
 
 ---
 
