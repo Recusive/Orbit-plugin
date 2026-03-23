@@ -27,7 +27,11 @@ Most code reviews are generalist — one person (or one AI) trying to catch ever
 ## Install
 
 ```bash
-/plugin install Recusive/Orbit-plugin
+# Step 1: Add the Orbit marketplace
+/plugin marketplace add Recusive/Orbit-plugin
+
+# Step 2: Install the plugin
+/plugin install audit-suite
 ```
 
 ## Quick Start
