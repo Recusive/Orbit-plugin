@@ -5,7 +5,7 @@
   },
   "owner": {
     "name": "Orbit",
-    "url": "https://github.com/Recusive"
+    "url": "https://orbit.build"
   },
   "plugins": [
     {
@@ -14,11 +14,11 @@
       "version": "1.1.0",
       "author": {
         "name": "Orbit",
-        "url": "https://github.com/Recusive"
+        "url": "https://orbit.build"
       },
       "source": "./",
       "category": "development",
-      "homepage": "https://github.com/Recusive/Orbit-plugin",
+      "homepage": "https://orbit.build/plugin",
       "tags": ["audit", "code-review", "plan-review", "accessibility", "performance", "design", "ux", "frontend", "backend", "production-readiness"]
     }
   ]
