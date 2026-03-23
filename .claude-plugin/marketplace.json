@@ -1,0 +1,34 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "Orbit-plugin",
+  "description": "Orbit Audit Suite — 10 expert audit lenses + orchestrator for Claude Code",
+  "owner": {
+    "name": "Orbit",
+    "email": ""
+  },
+  "plugins": [
+    {
+      "name": "audit-suite",
+      "description": "10 expert audit lenses + full-audit orchestrator + 5 bundled reference skills. Review plans and code through the eyes of Design, UX, Frontend, Backend, Structural, Repo, Production, DX, Performance, and Accessibility engineers.",
+      "category": "development",
+      "source": ".",
+      "homepage": "https://github.com/Recusive/Orbit-plugin",
+      "author": {
+        "name": "Orbit"
+      },
+      "version": "1.1.0",
+      "keywords": [
+        "audit",
+        "code-review",
+        "plan-review",
+        "accessibility",
+        "performance",
+        "design",
+        "ux",
+        "frontend",
+        "backend",
+        "production-readiness"
+      ]
+    }
+  ]
+}
